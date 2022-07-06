@@ -64,7 +64,7 @@ if __name__ == "__main__":
         default=False,
     )
     args = parser.parse_args()
-    print(args.first_run)
+
     if args.first_run:
         first_run()
         exit(0)
