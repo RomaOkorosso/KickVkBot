@@ -50,7 +50,7 @@ def kick_non_admin_users(chat_id) -> None:
             else:
                 errors += 1
 
-    print(f"End with {success} with success\n{errors} with errors")
+    print(f"End with {success} success\n{errors} errors")
 
 
 if __name__ == "__main__":
