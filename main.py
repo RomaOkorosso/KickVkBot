@@ -55,7 +55,7 @@ def kick_non_admin_users(chat_id) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="kick non admin users")
-    parser.add_argument("-L", "--link", help="link to chat", action="store_true")
+    parser.add_argument("-L", "--link", help="link to chat")
     parser.add_argument(
         "-O",
         "--first_run",

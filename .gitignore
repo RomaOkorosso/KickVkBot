@@ -5,7 +5,7 @@ __pycache__/
 *$py.class
 static/*.jpg
 static/*/*.jpg
-
+vk_config.v2.json
 
 # C extensions
 *.so
